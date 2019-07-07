@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Data Karyawan By AJAX</title>
+</head>
+<body>
+  <p id="sembunyitambah">Nomor Induk Karyawan :
+    <select id="nik"></select>
+  </p>
+
+  <a id="formtambah" style="cursor:pointer;color:red">
+    <u>Tambah Data Karyawan</u>
+  </a>
+
+  <p style="display:none;" id="formnik">
+    NIK: <br>
+    <input type="text" id="nik2">
+  </p>
+
+  <p>Nama : <br>
+    <input type="text" id="nama">
+  </p>
+
+  <p>Email :<br>
+    <input type="text" id="email">
+  </p>
+
+  <p>Alamat : <br>
+    <input type="text" id="alamat" size="30">
+  </p>
+
+  <button id="tupdate">UPDATE</button>
+  <button id="tdelete">DELETE</button>
+  <button id="ttambah" style="display:none;">TAMBAH</button>
+  <br>
+  <span id="status"></span>
+  <img src="loading.png" width="80" id="loading" style="display:none">
+
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="code.js"></script>
+</body>
+</html>
